@@ -93,15 +93,15 @@ export class Utils {
         }
       }
     }
-    console.log(convertToArray)
+    // console.log(convertToArray)
     let convertToString = convertToArray.join('')
-    console.log(convertToString)
+    // console.log(convertToString)
 
     let characterAsc = ''
     for (let i = 0; i < convertToString.length; i++) {
       characterAsc += String.fromCharCode(97 + i)
     }
-    console.log('characterAsc', characterAsc)
+    // console.log('characterAsc', characterAsc)
     return characterAsc
 
   }
