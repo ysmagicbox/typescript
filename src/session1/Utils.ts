@@ -1,57 +1,57 @@
-// export class Utils {
-//   public static checkText() {
-//     return 'hello'
-//   }
+export class Utils {
+  public static checkText() {
+    return 'hello'
+  }
 
-//   add(numberA, numberB) {
-//     return numberA + numberB
-//   }
-//   subtract(numberA, numberB) {
-//     return numberA - numberB
-//   }
+  add(numberA, numberB) {
+    return numberA + numberB
+  }
+  subtract(numberA, numberB) {
+    return numberA - numberB
+  }
 
-//   calculateDayDiff(date1, date2) {
-//     const d1 = new Date(date1)
-//     const d2 = new Date(date2)
-//     const n1 = d1.getTime()
-//     const n2 = d2.getTime()
-//     const diff = d2.getTime() - d1.getTime()
-//     const dayDiff = diff / (1000 * 60 * 60 * 24)
-//     // console.log('date1', date1)
-//     // console.log('date2', date2)
-//     return dayDiff
-//   }
+  calculateDayDiff(date1, date2) {
+    const d1 = new Date(date1)
+    const d2 = new Date(date2)
+    const n1 = d1.getTime()
+    const n2 = d2.getTime()
+    const diff = d2.getTime() - d1.getTime()
+    const dayDiff = diff / (1000 * 60 * 60 * 24)
+    // console.log('date1', date1)
+    // console.log('date2', date2)
+    return dayDiff
+  }
 
-//   printNumber(amount) {
-//     let result = ''
-//     for (let i = 0; i < amount; i++) {
-//       result += (i + 1) + ' '
-//     }
-//     for (let i = amount; i > 1; i--) {
-//       if (i > 2) {
-//         result += (i - 1) + ' '
-//       } else {
-//         result += (i - 1)
-//       }
-//     }
-//     return result
-//   }
+  printNumber(amount) {
+    let result = ''
+    for (let i = 0; i < amount; i++) {
+      result += (i + 1) + ' '
+    }
+    for (let i = amount; i > 1; i--) {
+      if (i > 2) {
+        result += (i - 1) + ' '
+      } else {
+        result += (i - 1)
+      }
+    }
+    return result
+  }
 
-//   drawing(max: number) {
-//     let temp: any = []
-//     for (let i = 0; i < ((max * 2) - 1); i++) {
-//       if (i === 0) {
-//         temp.push('\n')
-//       }
-//       else if (i < max) {
-//         temp.push('+')
-//       } else {
-//         temp.pop()
-//       }
-//       return temp.join(' ')
-//     }
-//   }
-// }
+  drawing(max: number) {
+    let temp: any = []
+    for (let i = 0; i < ((max * 2) - 1); i++) {
+      if (i === 0) {
+        temp.push('')
+      }
+      else if (i < max) {
+        temp.push('+')
+      } else {
+        temp.pop()
+      }
+      return temp.join(' ')
+    }
+  }
+}
 
 
 ////// Test function ///////////
